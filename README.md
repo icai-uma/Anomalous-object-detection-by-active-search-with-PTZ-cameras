@@ -7,6 +7,7 @@ This repository contains the source code of the paper Anomalous object detection
 The dataset with the anomalous objects has been created from those that the virtualptz library incorporates. They have been edited by using a video editing application and then adding the groundtruth by employing the PTZ gtmaker application from the LITIV project.
 
 https://bitbucket.org/pierre_luc_st_charles/virtualptz_standalone
+
 https://github.com/plstcharles/litiv
 
 Citation
