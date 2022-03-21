@@ -1,0 +1,593 @@
+%YAML:1.0
+---
+Name: Ground Truth
+Function: This is the ground-truth data (bounding box) of PTZ camera benchmark
+Notation: "In each image, the target is at center of the view"
+InputPath: "/home/icai21/Modelos/codigos/anomalous_detection/videos/scenario3dogcow.mp4"
+totalFrameNum: 531.
+frameImageWidth: 640.
+frameImageHeight: 480.
+verticalFOV: 90.
+basicGroundTruth:
+   - { framePos:139, height:60, width:74,
+       horizontalAngle:1.4500000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:140, height:60, width:74,
+       horizontalAngle:1.4250000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:141, height:60, width:74,
+       horizontalAngle:1.4000000000000087e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:142, height:60, width:74,
+       horizontalAngle:1.4250000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:143, height:60, width:74,
+       horizontalAngle:1.4000000000000087e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:144, height:60, width:74,
+       horizontalAngle:1.4250000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:145, height:60, width:74,
+       horizontalAngle:1.4000000000000087e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:146, height:60, width:74,
+       horizontalAngle:1.4250000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:147, height:60, width:74,
+       horizontalAngle:1.4000000000000087e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:148, height:60, width:74,
+       horizontalAngle:1.4250000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:149, height:60, width:74,
+       horizontalAngle:1.4000000000000087e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:150, height:60, width:74,
+       horizontalAngle:1.4250000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:151, height:60, width:74,
+       horizontalAngle:1.4000000000000087e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:152, height:60, width:74,
+       horizontalAngle:1.4250000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:153, height:60, width:74,
+       horizontalAngle:1.4500000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:154, height:60, width:74,
+       horizontalAngle:1.5250000000000085e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:155, height:60, width:74,
+       horizontalAngle:1.6000000000000089e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:156, height:60, width:74,
+       horizontalAngle:1.6750000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:157, height:60, width:74,
+       horizontalAngle:1.7500000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:158, height:60, width:74,
+       horizontalAngle:1.8750000000000085e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:159, height:60, width:74,
+       horizontalAngle:2.0000000000000082e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:160, height:60, width:76,
+       horizontalAngle:2.1000000000000085e+01,
+       verticalAngle:9.3250000000000071e+01 }
+   - { framePos:161, height:62, width:76,
+       horizontalAngle:2.3000000000000085e+01,
+       verticalAngle:9.3500000000000085e+01 }
+   - { framePos:162, height:62, width:74,
+       horizontalAngle:2.4500000000000078e+01,
+       verticalAngle:9.3500000000000099e+01 }
+   - { framePos:163, height:62, width:74,
+       horizontalAngle:2.6250000000000078e+01,
+       verticalAngle:9.3500000000000114e+01 }
+   - { framePos:164, height:62, width:74,
+       horizontalAngle:2.8500000000000078e+01,
+       verticalAngle:9.3500000000000128e+01 }
+   - { framePos:165, height:62, width:74,
+       horizontalAngle:3.0250000000000085e+01,
+       verticalAngle:9.3500000000000142e+01 }
+   - { framePos:166, height:62, width:74,
+       horizontalAngle:3.2250000000000078e+01,
+       verticalAngle:9.3500000000000156e+01 }
+   - { framePos:167, height:62, width:74,
+       horizontalAngle:3.4000000000000085e+01,
+       verticalAngle:9.3500000000000171e+01 }
+   - { framePos:168, height:62, width:74,
+       horizontalAngle:3.5500000000000085e+01,
+       verticalAngle:9.3500000000000171e+01 }
+   - { framePos:169, height:62, width:74,
+       horizontalAngle:3.6750000000000092e+01,
+       verticalAngle:9.3500000000000171e+01 }
+   - { framePos:170, height:62, width:74,
+       horizontalAngle:3.7750000000000085e+01,
+       verticalAngle:9.3500000000000171e+01 }
+   - { framePos:171, height:62, width:74,
+       horizontalAngle:3.9000000000000085e+01,
+       verticalAngle:9.3500000000000171e+01 }
+   - { framePos:172, height:62, width:74,
+       horizontalAngle:4.0000000000000085e+01,
+       verticalAngle:9.3500000000000171e+01 }
+   - { framePos:173, height:62, width:74,
+       horizontalAngle:4.0500000000000085e+01,
+       verticalAngle:9.4000000000000185e+01 }
+   - { framePos:174, height:62, width:74,
+       horizontalAngle:4.0750000000000092e+01,
+       verticalAngle:9.4000000000000199e+01 }
+   - { framePos:175, height:62, width:74,
+       horizontalAngle:4.1500000000000099e+01,
+       verticalAngle:9.4000000000000213e+01 }
+   - { framePos:176, height:62, width:74,
+       horizontalAngle:4.1750000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:177, height:62, width:76,
+       horizontalAngle:4.1750000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:178, height:62, width:76,
+       horizontalAngle:4.1500000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:179, height:62, width:76,
+       horizontalAngle:4.1750000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:180, height:62, width:76,
+       horizontalAngle:4.1500000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:181, height:62, width:76,
+       horizontalAngle:4.1750000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:182, height:62, width:76,
+       horizontalAngle:4.1500000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:183, height:62, width:76,
+       horizontalAngle:4.1750000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:184, height:62, width:76,
+       horizontalAngle:4.1500000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:185, height:62, width:74,
+       horizontalAngle:4.1500000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:186, height:62, width:74,
+       horizontalAngle:4.1250000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:187, height:62, width:74,
+       horizontalAngle:4.1000000000000099e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:188, height:62, width:74,
+       horizontalAngle:4.0750000000000114e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:189, height:62, width:76,
+       horizontalAngle:4.0250000000000114e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:190, height:62, width:76,
+       horizontalAngle:3.9250000000000114e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:191, height:62, width:76,
+       horizontalAngle:3.8750000000000114e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:192, height:62, width:74,
+       horizontalAngle:3.8250000000000121e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:193, height:62, width:74,
+       horizontalAngle:3.7500000000000114e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:194, height:62, width:74,
+       horizontalAngle:3.6750000000000121e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:195, height:62, width:74,
+       horizontalAngle:3.5750000000000114e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:196, height:62, width:74,
+       horizontalAngle:3.4500000000000128e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:197, height:62, width:74,
+       horizontalAngle:3.3500000000000128e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:198, height:62, width:74,
+       horizontalAngle:3.2250000000000135e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:199, height:62, width:74,
+       horizontalAngle:3.0750000000000135e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:200, height:62, width:74,
+       horizontalAngle:2.9750000000000142e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:201, height:62, width:74,
+       horizontalAngle:2.8250000000000142e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:202, height:62, width:74,
+       horizontalAngle:2.7250000000000139e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:203, height:62, width:74,
+       horizontalAngle:2.6000000000000139e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:204, height:62, width:74,
+       horizontalAngle:2.4750000000000146e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:205, height:62, width:74,
+       horizontalAngle:2.3500000000000149e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:206, height:60, width:74,
+       horizontalAngle:2.2750000000000139e+01,
+       verticalAngle:9.3750000000000242e+01 }
+   - { framePos:207, height:60, width:76,
+       horizontalAngle:2.1750000000000139e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:208, height:60, width:76,
+       horizontalAngle:2.1000000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:209, height:60, width:76,
+       horizontalAngle:2.0250000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:210, height:60, width:74,
+       horizontalAngle:1.9250000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:211, height:60, width:74,
+       horizontalAngle:1.8750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:212, height:60, width:74,
+       horizontalAngle:1.8500000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:213, height:60, width:74,
+       horizontalAngle:1.7750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:214, height:60, width:74,
+       horizontalAngle:1.7500000000000149e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:215, height:60, width:74,
+       horizontalAngle:1.7250000000000139e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:216, height:60, width:74,
+       horizontalAngle:1.7000000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:217, height:60, width:74,
+       horizontalAngle:1.6750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:218, height:60, width:74,
+       horizontalAngle:1.6500000000000149e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:219, height:60, width:74,
+       horizontalAngle:1.6750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:220, height:60, width:74,
+       horizontalAngle:1.7000000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:221, height:60, width:74,
+       horizontalAngle:1.6750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:222, height:60, width:74,
+       horizontalAngle:1.7000000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:223, height:60, width:74,
+       horizontalAngle:1.6750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:224, height:60, width:74,
+       horizontalAngle:1.7000000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:225, height:60, width:74,
+       horizontalAngle:1.6750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:226, height:60, width:74,
+       horizontalAngle:1.7000000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:227, height:60, width:74,
+       horizontalAngle:1.6750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:228, height:60, width:74,
+       horizontalAngle:1.7000000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:229, height:60, width:74,
+       horizontalAngle:1.6750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:230, height:60, width:74,
+       horizontalAngle:1.7000000000000142e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:231, height:60, width:74,
+       horizontalAngle:1.6750000000000146e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:246, height:62, width:50,
+       horizontalAngle:4.5000000000000014e+01,
+       verticalAngle:9.4000000000000156e+01 }
+   - { framePos:247, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000171e+01 }
+   - { framePos:248, height:62, width:50,
+       horizontalAngle:4.5000000000000014e+01,
+       verticalAngle:9.4000000000000171e+01 }
+   - { framePos:249, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000185e+01 }
+   - { framePos:250, height:62, width:50,
+       horizontalAngle:4.5000000000000014e+01,
+       verticalAngle:9.4000000000000199e+01 }
+   - { framePos:251, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000213e+01 }
+   - { framePos:252, height:62, width:50,
+       horizontalAngle:4.5000000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:253, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:254, height:62, width:50,
+       horizontalAngle:4.5000000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:255, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:256, height:62, width:50,
+       horizontalAngle:4.5000000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:257, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:258, height:62, width:50,
+       horizontalAngle:4.5000000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:259, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:260, height:62, width:50,
+       horizontalAngle:4.5000000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:261, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:262, height:62, width:50,
+       horizontalAngle:4.5000000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:263, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:264, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:265, height:62, width:50,
+       horizontalAngle:4.4750000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:266, height:62, width:50,
+       horizontalAngle:4.4500000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:267, height:62, width:50,
+       horizontalAngle:4.4250000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:268, height:62, width:50,
+       horizontalAngle:4.4500000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:269, height:62, width:50,
+       horizontalAngle:4.4250000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:270, height:62, width:50,
+       horizontalAngle:4.4000000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:271, height:62, width:50,
+       horizontalAngle:4.3750000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:272, height:62, width:50,
+       horizontalAngle:4.3500000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:273, height:62, width:50,
+       horizontalAngle:4.3250000000000014e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:274, height:62, width:50,
+       horizontalAngle:4.3000000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:275, height:62, width:50,
+       horizontalAngle:4.2500000000000028e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:276, height:62, width:48,
+       horizontalAngle:4.2250000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:277, height:62, width:48,
+       horizontalAngle:4.2000000000000021e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:278, height:62, width:48,
+       horizontalAngle:4.1250000000000028e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:279, height:62, width:48,
+       horizontalAngle:4.1000000000000028e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:280, height:62, width:48,
+       horizontalAngle:4.0250000000000036e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:281, height:62, width:48,
+       horizontalAngle:4.0000000000000043e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:282, height:62, width:48,
+       horizontalAngle:3.9750000000000050e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:283, height:62, width:48,
+       horizontalAngle:3.9000000000000050e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:284, height:62, width:48,
+       horizontalAngle:3.8750000000000050e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:285, height:62, width:48,
+       horizontalAngle:3.8000000000000057e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:286, height:62, width:48,
+       horizontalAngle:3.7250000000000064e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:287, height:62, width:48,
+       horizontalAngle:3.6500000000000071e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:288, height:62, width:48,
+       horizontalAngle:3.6250000000000071e+01,
+       verticalAngle:9.4000000000000227e+01 }
+   - { framePos:289, height:60, width:48,
+       horizontalAngle:3.5500000000000078e+01,
+       verticalAngle:9.3750000000000242e+01 }
+   - { framePos:290, height:60, width:48,
+       horizontalAngle:3.4750000000000085e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:291, height:60, width:48,
+       horizontalAngle:3.4000000000000092e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:292, height:60, width:48,
+       horizontalAngle:3.3250000000000085e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:293, height:60, width:48,
+       horizontalAngle:3.2500000000000085e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:294, height:60, width:48,
+       horizontalAngle:3.1750000000000092e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:295, height:60, width:48,
+       horizontalAngle:3.1250000000000099e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:296, height:60, width:48,
+       horizontalAngle:3.0000000000000092e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:297, height:60, width:48,
+       horizontalAngle:2.9000000000000092e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:298, height:60, width:48,
+       horizontalAngle:2.8500000000000089e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:299, height:60, width:48,
+       horizontalAngle:2.7750000000000082e+01,
+       verticalAngle:9.3750000000000256e+01 }
+   - { framePos:300, height:62, width:48,
+       horizontalAngle:2.6250000000000089e+01,
+       verticalAngle:9.3250000000000256e+01 }
+   - { framePos:301, height:62, width:48,
+       horizontalAngle:2.5500000000000085e+01,
+       verticalAngle:9.3250000000000270e+01 }
+   - { framePos:302, height:62, width:48,
+       horizontalAngle:2.4500000000000082e+01,
+       verticalAngle:9.3250000000000284e+01 }
+   - { framePos:303, height:62, width:48,
+       horizontalAngle:2.3750000000000089e+01,
+       verticalAngle:9.3250000000000298e+01 }
+   - { framePos:304, height:62, width:48,
+       horizontalAngle:2.3250000000000085e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:305, height:62, width:48,
+       horizontalAngle:2.2500000000000092e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:306, height:62, width:48,
+       horizontalAngle:2.1500000000000092e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:307, height:62, width:48,
+       horizontalAngle:2.0750000000000085e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:308, height:62, width:48,
+       horizontalAngle:2.0250000000000092e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:309, height:62, width:48,
+       horizontalAngle:1.9500000000000085e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:310, height:62, width:48,
+       horizontalAngle:1.8750000000000085e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:311, height:62, width:48,
+       horizontalAngle:1.8250000000000092e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:312, height:62, width:48,
+       horizontalAngle:1.7750000000000082e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:313, height:62, width:48,
+       horizontalAngle:1.7000000000000092e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:314, height:62, width:48,
+       horizontalAngle:1.6750000000000078e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:315, height:62, width:48,
+       horizontalAngle:1.6000000000000085e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:316, height:62, width:48,
+       horizontalAngle:1.5750000000000096e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:317, height:62, width:48,
+       horizontalAngle:1.5000000000000103e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:318, height:62, width:48,
+       horizontalAngle:1.4750000000000103e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:319, height:62, width:48,
+       horizontalAngle:1.4500000000000107e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:320, height:62, width:48,
+       horizontalAngle:1.3750000000000115e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:321, height:62, width:48,
+       horizontalAngle:1.3500000000000119e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:322, height:62, width:48,
+       horizontalAngle:1.3250000000000121e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:323, height:62, width:48,
+       horizontalAngle:1.3000000000000108e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:324, height:62, width:48,
+       horizontalAngle:1.2750000000000114e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:325, height:62, width:48,
+       horizontalAngle:1.2500000000000115e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:326, height:62, width:48,
+       horizontalAngle:1.2250000000000121e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:327, height:62, width:48,
+       horizontalAngle:1.2000000000000108e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:328, height:62, width:48,
+       horizontalAngle:1.1750000000000114e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:329, height:62, width:48,
+       horizontalAngle:1.1500000000000114e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:330, height:62, width:48,
+       horizontalAngle:1.1250000000000119e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:331, height:62, width:48,
+       horizontalAngle:1.1000000000000123e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:332, height:62, width:48,
+       horizontalAngle:1.0750000000000124e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:333, height:62, width:48,
+       horizontalAngle:1.0500000000000126e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:334, height:62, width:48,
+       horizontalAngle:1.0250000000000128e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:335, height:62, width:48,
+       horizontalAngle:1.1000000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:336, height:62, width:48,
+       horizontalAngle:1.1250000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:337, height:62, width:48,
+       horizontalAngle:1.1000000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:338, height:62, width:48,
+       horizontalAngle:1.1250000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:339, height:62, width:48,
+       horizontalAngle:1.1000000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:340, height:62, width:48,
+       horizontalAngle:1.1250000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:341, height:62, width:48,
+       horizontalAngle:1.1000000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:342, height:62, width:48,
+       horizontalAngle:1.1250000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:343, height:62, width:48,
+       horizontalAngle:1.1000000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:344, height:62, width:48,
+       horizontalAngle:1.1250000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:345, height:62, width:48,
+       horizontalAngle:1.1000000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
+   - { framePos:346, height:62, width:48,
+       horizontalAngle:1.1250000000000131e+01,
+       verticalAngle:9.3250000000000313e+01 }
