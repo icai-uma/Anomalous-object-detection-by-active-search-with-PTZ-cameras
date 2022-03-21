@@ -11,6 +11,7 @@ https://bitbucket.org/pierre_luc_st_charles/virtualptz_standalone
 https://github.com/plstcharles/litiv
 
 ##Citation
+
 Please, cite this work as:
 López-Rubio, E., Molina-Cabello, M. A., Castro, F. M., Luque-Baena, R. M., Marín-Jiménez, M. J., & Guil, N. (2021). Anomalous object detection by active search with PTZ cameras. Expert Systems with Applications, 181, 115150. 
 DOI: 10.1016/j.eswa.2021.115150
