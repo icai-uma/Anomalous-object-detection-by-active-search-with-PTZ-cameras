@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Anomalous-object-detection-by-active-search-with-PTZ-cameras
 
-You can use the [editor on GitHub](https://github.com/icai-uma/Anomalous-object-detection-by-active-search-with-PTZ-cameras/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Abstract
+Due to the large amount of visual information generated daily, proposals that automatically analyze and process data are becoming increasingly necessary. This work focuses on the detection of anomalous objects in video sequences captured by PTZ (pan-tilt-zoom) cameras, considering as anomalies the objects which belong to categories that should not appear in a specific scene (e.g. pedestrians on a highway). There is a lack in the previous literature of a principled approach for the control of PTZ cameras that takes advantage of the recent developments in deep learning-based object detection. Our proposal aims to fill this gap by offering a probabilistic framework where the guidance of PTZ cameras is accommodated. The proposed methodology involves three different modules. An object detection stage, where deep learning networks are used to detect the objects that appear in the scene; an anomalous detection module, where a mixture of Dirichlet distributions is considered to detect automatically, and without supervised training, those detected objects which are likely to be anomalous; and finally, a PTZ camera controller which allows to follow and focus on the object considered as the most probably anomalous in the scene. The experimental results show the performance and viability of our proposal, which outperforms several competitors from qualitative and quantitative points of view. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Repository
 
-### Markdown
+This repository contains the source code of the paper Anomalous object detection by active search with PTZ cameras. The code is developed in Matlab and C++, and it uses Caffe (Faster-RCNN) and the virtualptz library.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The dataset with the anomalous objects has been created from those that the virtualptz library incorporates. They have been edited by using a video editing application and then adding the groundtruth by employing the PTZ gtmaker application from the LITIV project.
 
-```markdown
-Syntax highlighted code block
+https://bitbucket.org/pierre_luc_st_charles/virtualptz_standalone
 
-# Header 1
-## Header 2
-### Header 3
+https://github.com/plstcharles/litiv
 
-- Bulleted
-- List
+## Citation
 
-1. Numbered
-2. List
+Please, cite this work as:
+López-Rubio, E., Molina-Cabello, M. A., Castro, F. M., Luque-Baena, R. M., Marín-Jiménez, M. J., & Guil, N. (2021). Anomalous object detection by active search with PTZ cameras. Expert Systems with Applications, 181, 115150. 
+DOI: 10.1016/j.eswa.2021.115150
+https://www.sciencedirect.com/science/article/abs/pii/S0957417421005911
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/icai-uma/Anomalous-object-detection-by-active-search-with-PTZ-cameras/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
